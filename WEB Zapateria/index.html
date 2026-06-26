@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURI | Walk Happy, Vive con Estilo</title>
+    <meta name="description" content="CURI: Zapatería de hombres que combina la tradición del cuero real con diseños formales y modernos.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span><i class="fa-solid fa-truck-fast"></i> Despacho desde $3.390</span>
+            <span><i class="fa-solid fa-credit-card"></i> Paga en cuotas sin interés</span>
+            <span><i class="fa-solid fa-rotate-left"></i> Cambios ilimitados sin costo</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">CURI<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#presentacion">La Marca</a></li>
+                <li><a href="#zapatos">Zapatos</a></li>
+                <li><a href="#botines">Botines</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#sale" class="sale-link">Sale</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-badge" id="cart-badge">0</span>
+        </div>
+    </header>
+
+    <!-- Cinematic Presentation Video Section -->
+    <section class="cinematic-presentation" id="presentacion">
+        <div class="slideshow">
+            <div class="slide" style="background-image: url('images/formal_shoe_1_1782512092172.png')"></div>
+            <div class="slide" style="background-image: url('images/safari_boot_1782512575295.png')"></div>
+            <div class="slide" style="background-image: url('images/leather_wallet_1782512557686.png')"></div>
+        </div>
+        <div class="cinematic-overlay">
+            <div class="cinematic-content">
+                <h2>CURI</h2>
+                <p class="subtitle">Walk Happy</p>
+                <div class="values">
+                    <span><i class="fa-solid fa-check"></i> Cuero 100% Real</span>
+                    <span><i class="fa-solid fa-check"></i> Diseño Tradicional</span>
+                    <span><i class="fa-solid fa-check"></i> Comodidad Absoluta</span>
+                </div>
+                <a href="#catalogo" class="btn">Descubrir Colección</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection" id="catalogo">
+        <div class="section-title">
+            <h2>Nuestra Colección</h2>
+            <p>Seleccionados cuidadosamente para cualquier ocasión</p>
+        </div>
+        
+        <div class="product-grid" id="product-grid">
+            <div class="product-card" data-id="1" data-name="Oxford Clásico" data-price="120000" data-img="images/formal_shoe_1_1782512092172.png">
+                <div class="img-container">
+                    <img src="images/formal_shoe_1_1782512092172.png" alt="Zapato Oxford Clásico de Cuero">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Zapato Formal</span>
+                    <h3>Oxford Clásico</h3>
+                    <p class="price">$120.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="2" data-name="Sneaker Urbano" data-price="95000" data-img="images/modern_shoe_1_1782512100112.png">
+                <div class="img-container">
+                    <img src="images/modern_shoe_1_1782512100112.png" alt="Sneaker de Cuero Moderno">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Zapato Moderno</span>
+                    <h3>Sneaker Urbano</h3>
+                    <p class="price">$95.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="3" data-name="Botín Chelsea" data-price="135000" data-img="images/chelsea_boot_1_1782512109425.png">
+                <div class="img-container">
+                    <img src="images/chelsea_boot_1_1782512109425.png" alt="Botín Chelsea de Gamuza">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Botines</span>
+                    <h3>Botín Chelsea</h3>
+                    <p class="price">$135.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="4" data-name="Mocasín Penny" data-price="110000" data-img="images/loafer_shoe_1_1782512118546.png">
+                <div class="img-container">
+                    <img src="images/loafer_shoe_1_1782512118546.png" alt="Mocasín Penny de Cuero Burdeos">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Zapato Moderno</span>
+                    <h3>Mocasín Penny</h3>
+                    <p class="price">$110.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="5" data-name="Botín Safari" data-price="125000" data-img="images/safari_boot_1782512575295.png">
+                <div class="img-container">
+                    <img src="images/safari_boot_1782512575295.png" alt="Botín Safari de Cuero">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Botines</span>
+                    <h3>Botín Safari</h3>
+                    <p class="price">$125.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="6" data-name="Slip On Casual" data-price="89000" data-img="images/slip_on_shoe_1782512567861.png">
+                <div class="img-container">
+                    <img src="images/slip_on_shoe_1782512567861.png" alt="Slip On Casual de Cuero">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Zapato Casual</span>
+                    <h3>Slip On Casual</h3>
+                    <p class="price">$89.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="7" data-name="Cinturón Clásico" data-price="45000" data-img="images/leather_belt_1782512548601.png">
+                <div class="img-container">
+                    <img src="images/leather_belt_1782512548601.png" alt="Cinturón de Cuero">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Accesorios</span>
+                    <h3>Cinturón Clásico</h3>
+                    <p class="price">$45.000</p>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="8" data-name="Billetera Bifold" data-price="35000" data-img="images/leather_wallet_1782512557686.png">
+                <div class="img-container">
+                    <img src="images/leather_wallet_1782512557686.png" alt="Billetera de Cuero">
+                    <div class="overlay">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-plus"></i> Al Carrito</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Accesorios</span>
+                    <h3>Billetera Bifold</h3>
+                    <p class="price">$35.000</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="features" id="nosotros">
+        <div class="feature">
+            <i class="fa-solid fa-cow"></i>
+            <h3>100% Cuero Real</h3>
+            <p>Utilizamos cueros de primera calidad que garantizan durabilidad y un envejecimiento único.</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h3>Estilo CURI</h3>
+            <p>Diseños contemporáneos pensados para el hombre de hoy, sin perder la esencia tradicional.</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Envío Rápido</h3>
+            <p>Despachos a todo Chile para que disfrutes de tu estilo sin demoras.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">CURI<span>.</span></div>
+            <p>© 2026 CURI Shoes. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-cart" id="close-cart"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items will be injected here via JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0</span>
+            </div>
+            <button class="checkout-btn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
